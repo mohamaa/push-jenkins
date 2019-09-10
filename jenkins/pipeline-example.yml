@@ -4,7 +4,7 @@ pipeline{
     environment {
         TMP_DOCKER_CONTAINER="jenkins-${currentBuild.number}"
         ENVIRONMENT="dev"
-        PIPELINE_NAME="MyProjectPipeline-Dev"
+        PIPELINE_NAME="MyProjectWork-GitWebHook"
     }
 
     stages{
