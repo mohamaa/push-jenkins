@@ -18,8 +18,8 @@ pipeline{
 
                     # Clone & Navigate Snippets Repo
                     git clone https://github.com/subsari/snippets.git
-                    cd /var/lib/jenkins/workspace/${PIPELINE_NAME}/docker/apache
-                    
+                    cd /var/lib/jenkins/workspace/${PIPELINE_NAME}/${TMP_DOCKER_CONTAINER}/snippets/docker/apache
+                                       
                     # Copy Docker Files To Workspace
                     cp * -r /var/lib/jenkins/workspace/${PIPELINE_NAME}/
                 """
